@@ -5,7 +5,7 @@ const path = require('node:path');
 
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '',
 });
 const openai = new OpenAIApi(configuration);
 
@@ -75,5 +75,5 @@ client.on('messageCreate', async (msg) => {
     }
 })
 
-client.login('MTA2Nzg3MjM5MDQ0NjYwMDM1Mg.GDPawP.fUM6qglM6GULQbdcNe5KTltlGsbDQ9Q_GnaITg');
+client.login('');
 
